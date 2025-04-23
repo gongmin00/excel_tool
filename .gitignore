@@ -2,6 +2,10 @@ node_modules
 
 inputFiles/*
 
+!inputFiles/.keep
+
 outputFiles/*
+
+!outputFiles/.keep
 
 .DS_Store
