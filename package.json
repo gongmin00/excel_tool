@@ -1,0 +1,15 @@
+{
+  "name": "excel_convert_tools",
+  "version": "1.0.0",
+  "description": "convert any kind of file content to excel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Min Gong",
+  "license": "ISC",
+  "dependencies": {
+    "fast-xml-parser": "^5.2.1",
+    "xlsx": "^0.18.5"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules
+
+inputFiles/*
+
+outputFiles/*
+
+.DS_Store
