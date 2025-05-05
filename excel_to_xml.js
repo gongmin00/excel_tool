@@ -53,7 +53,8 @@ language.forEach((langConfig) => {
     const builder = new XMLBuilder({
       format: true,
       ignoreAttributes: false,
-      attributeNamePrefix: ''
+      attributeNamePrefix: '',
+      processEntities: false // 阻止自动转义实体
     });
     const xmlContent = builder.build({
       resources: {
