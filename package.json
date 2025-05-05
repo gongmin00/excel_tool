@@ -2,7 +2,7 @@
   "name": "excel_convert_tools",
   "version": "1.0.0",
   "description": "convert any kind of file content to excel",
-  "main": "index.js",
+  "main": "excel_to_xml.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
