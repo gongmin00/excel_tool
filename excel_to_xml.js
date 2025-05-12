@@ -43,10 +43,17 @@ language.forEach((langConfig) => {
       const key = row[keyColumnIndex];
       const value = row[langColumnIndex];
       if (key && value) {
-        strings.push({
-          name: key,
-          '#text': value
-        });
+        if (value !== '' && value !== undefined) {
+          strings.push({
+            name: key,
+            '#text': lang === 'fr' ? String(value).replace(/'/g, "\\'") : value
+          });
+        } else {
+          strings.push({
+            name: key,
+            '#text': value
+          });
+        }
       }
     });
     // builder XML
