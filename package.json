@@ -1,9 +1,9 @@
 {
   "name": "excel_convert_tools",
   "version": "1.0.0",
-  "type": "module",
   "description": "convert any kind of file content to excel",
   "main": "excel_to_xml.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

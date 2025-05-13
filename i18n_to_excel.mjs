@@ -1,6 +1,3 @@
-// const fs = require('fs');
-// const path = require('path');
-// const xlsx = require('xlsx');
 import fs from 'fs';
 import path from 'path';
 import xlsx from 'xlsx';
